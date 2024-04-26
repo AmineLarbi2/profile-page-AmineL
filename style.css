@@ -1,0 +1,147 @@
+/* Write some CSS below */
+
+body{
+    background-color: rgb(244,242,238);
+
+}
+
+h1{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-display:inherit
+}
+
+h2{
+    color:rgb(45,100,188);
+    font-size: 30px;
+    text-align: center;
+}
+
+a{
+     text-decoration: none;
+}
+
+.container{
+    width: 800px ;
+    margin: 10px auto;
+    
+}
+
+
+
+.card-white{
+    width: 800px;
+    background-color: white;
+    margin: 10px auto;
+    padding: 30px ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(85, 84, 84, 0.5);
+    text-align: center;
+}
+
+#Introduction{
+    background: linear-gradient(#0077B5, 2%, #fbfbfb);
+}
+
+
+.picture-circle{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 10px 10px rgba(19, 19, 19, 0.5);
+    margin-bottom: 10px;
+}
+
+
+
+.card-white ul{
+    list-style: none;
+    padding-left: 0;
+    padding-top: 10px;
+
+}
+
+.card-white li{
+    font-weight: 100px;
+    font-family: "Roboto" sans-serif;
+    letter-spacing: 1px;
+
+}
+
+
+
+.description{
+    color: black;
+    font-family: "Roboto" sans-serif;
+    letter-spacing: 2px;
+}
+
+
+.list-thin{
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+#Bio{
+    margin-bottom: 30px;
+    font-style: italic;
+    padding: 10px;
+}
+
+
+.btn-blue {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    font-weight: bold;
+    background-color:rgb(45,100,188);
+    font-family: "Roboto";
+    border-radius: 15px;
+    padding: 5px 15px;
+    transition: .2s;
+ }
+
+ .btn-blue:hover {
+    background-color:rgb(17, 55, 115);
+}
+
+
+ .flag-align li{
+    display: inline;
+    margin-inline: 10px;
+ }
+
+ .country-size{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+ }
+
+.logo-display li{
+    display: inline;
+    margin-inline: 10px;
+    font-size: 30px;
+    
+}
+
+a.youtube{
+    color: red;
+}
+
+a.mail{
+    color: rgb(74, 149, 229);
+}
+
+a.github{
+    color:black
+}
+
+.arrow-down {
+     width: 32px;
+     height: 20px;
+    background-color:rgb(45, 100, 188);
+    margin: 20px auto;
+    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    }
